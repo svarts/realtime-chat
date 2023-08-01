@@ -10,4 +10,4 @@ app.post("/authenticate", async (req, res) => {
     return res.json({ username: username, secret: "sha256..." });
 });
 
-app.listen(3001);
+app.listen(3001); 
